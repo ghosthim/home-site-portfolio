@@ -22,7 +22,7 @@
           Viewed by you guys for a total of
           <span id="busuanzi_value_site_pv"></span> times ♥
         </p>
-        <p id="footer-copyright">©2019 - {{ getYear() }} Spencer Woo</p>
+        <p id="footer-copyright">©2019 - {{ getYear() }} API2U</p>
       </div>
     </div>
   </div>

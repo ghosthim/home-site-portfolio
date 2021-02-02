@@ -11,7 +11,7 @@
           suffix="members"
           icon="telegram.png"
           :loading="telegram.loading"
-          link="https://t.me/realSpencerWoo"
+          link="https://t.me/api2u"
         />
         <statCard
           statTitle="Jike"
@@ -47,7 +47,7 @@
           suffix="fans"
           icon="weibo.png"
           :loading="weibo.loading"
-          link="https://weibo.com/spencerwoo"
+          link="https://weibo.com/api2u"
         />
         <statCard
           statTitle="Zhihu"
@@ -73,25 +73,7 @@
           suffix="followers"
           icon="github.png"
           :loading="github.loading"
-          link="https://github.com/spencerwooo"
-        />
-      </div>
-      <div class="row-container">
-        <statCard
-          statTitle="Medium"
-          :followers="medium.data"
-          suffix="readers"
-          icon="medium.png"
-          :loading="medium.loading"
-          link="https://medium.com/spencerweekly"
-        />
-        <statCard
-          statTitle="Steam Games"
-          :followers="steamGames.data"
-          suffix="games"
-          icon="steam.png"
-          :loading="steamGames.loading"
-          link="https://steamcommunity.com/id/firebearllc/"
+          link="https://github.com/ghosthim"
         />
       </div>
     </div>
@@ -132,12 +114,12 @@ export default {
     const sspaiAxios = this.axios.get(`${apiUrl}/?source=sspai&queryKey=spencerwoo`)
     const jikeAxios = this.axios.get(`${apiUrl}/?source=jikeFollower&queryKey=4DDA0425-FB41-4188-89E4-952CA15E3C5E`)
     const zhihuAxios = this.axios.get(`${apiUrl}/?source=zhihu&queryKey=spencerwoo`)
-    const weiboAxios = this.axios.get(`${apiUrl}/?source=weibo&queryKey=6265807914`)
+    const weiboAxios = this.axios.get(`${apiUrl}/?source=weibo&queryKey=3402293202`)
     const twitterAxios = this.axios.get(`${apiUrl}/?source=twitter&queryKey=realSpencerWoo`)
     const mediumAxios = this.axios.get(`${apiUrl}/?source=medium&queryKey=@SpencerWooo`)
-    const githubAxios = this.axios.get(`${apiUrl}/?source=github&queryKey=spencerwooo`)
+    const githubAxios = this.axios.get(`${apiUrl}/?source=github&queryKey=ghosthim`)
     const steamGamesAxios = this.axios.get(`${apiUrl}/?source=steamGames&queryKey=76561198336249957`)
-    const telegramAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=realSpencerWoo`)
+    const telegramAxios = this.axios.get(`${apiUrl}/?source=telegram&queryKey=api2u`)
 
     rssAxios.then(r => {
       this.rss = { data: r.data.data.totalSubs, loading: false }
