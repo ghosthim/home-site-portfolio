@@ -16,7 +16,7 @@
     <div class="article">
       <h2>WHO AM I</h2>
       <p>
-        I'm <i>Youngeje Lee</i> with the ID <i>API2U</i>. Some other variations:
+        I'm <i>Youngeje Lee</i> with the ID <i>API2U</i>.
       </p>
 
       <h2>Academics</h2>
